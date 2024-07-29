@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/60828757c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="profile">My profile</div>
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <div class="cross-icon fas" onclick="closemenu()">--</div>
+                </ul>
+                <div class="menu-cross-icon fas" onclick="openmenu()">#</div>
+            </nav>
+            <div class="header-text">
+                <p>MCA student</p>
+                <H1>Hi i am <span>Yuvraj Tamatta</span> <br>Software </H1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------ABOUT------------------------------- -->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+                <img src="image/pathani.jpg" class="pathani">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse ratione rerum facere laboriosam tempora alias neque commodi fugiat, doloremque iste ullam voluptate porro, ducimus quas, expedita laudantium repudiandae aut officia optio asperiores! Dolore ad dolor quae ratione! Ex, necessitatibus sapiente. Fugiat, repellat illum porro nisi, labore sequi eius nulla maiores excepturi ab esse architecto, doloribus soluta voluptas laudantium nobis nam sunt minus saepe voluptates. Distinctio soluta optio numquam illo esse est laboriosam perferendis autem! Voluptas accusamus consectetur officia vel est explicabo consequuntur perferendis, aliquid iste harum dolore nesciunt, reiciendis natus ad laboriosam s.  voluptatem totam natus nulla suscipit mollitia ipsum laboriosam officiis culpa voluptatibus repellat.</p>
+                
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Web development/Designing interface</li>
+
+                        <li><span>Web Developement</span><br>Designing web/app interface</li>
+
+                        <li><span>App Developement</span><br>Building android apps</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>Web development at et intitute</li>
+
+                        <li><span>2019-2021</span><br>team lead at startup llc</li>
+
+                        <li><span>2017-209</span><br>design execute at coin digital ltd.<br></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br> MCA from atmiya university "RAJKOT"<br></li>
+
+                        <li><span>2019</span><br> BCA from christ art and science college "RAJKOT"</li>
+
+                        <li><span>2017</span><br>HSC from atmiya school "RAJKOT"</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------SERVICES----------------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="service-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, excepturi!</p>
+                <a href="#">Learm more</a>
+             </div>   
+
+             <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, excepturi!</p>
+                <a href="#">Learm more</a>                              
+             </div>   
+
+             <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, excepturi!</p>
+                <a href="#">Learm more</a>
+
+                
+             </div>   
+
+            </div>
+        </div>
+    </div>
+
+        <!-- -------------------------------------Portfolio----------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/netflix.jpg" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Netflix is a video streaming platform. I create only UI of homepage.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Reactjs.avif" alt="">
+                    <div class="layer">
+                        <h3>React project</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/logo.png" alt="">
+                    <div class="layer">
+                        <h3>Todo app</h3>
+                        <p>The app connects you to the talented people around the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+            <!-- -------------------------------------Portfolio----------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-lefft">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>yuvrajsinh123428@gmail.com</p>
+                <p>8320109245</p>
+                <div class="social-icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/yuvraj___0008" target="_blank" >instagram</a>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/yuvrajtamatta/" target="_blank" >LinkedIn</a>
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/YuvrajTamatta" target="_blank">Github</a>
+                </div>
+                <a href="Resume.pdf" download class="btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your messagee" ></textarea>
+                    <button type="submit" class="btn2">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ yuvraj made with html css & Js</p>
+    </div>
+</div>
+
+ <!-- -------------------------------------  JAVASCRIPT  ----------------------------------- -->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"> </script>
+ <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+ <script>
+     VANTA.CLOUDS({
+el: "#header",
+mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  skyColor: 0x42331,
+  cloudColor: 0x9baccd,
+  cloudShadowColor: 0x141e2f,
+  sunColor: 0x0,
+  sunGlareColor: 0x6b473e,
+  sunlightColor: 0xebebeb
+})
+ </script>
+  <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        const sidemenu= document.getElementById('sidemenu')
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+
+    </script>
+
+</body>
+</html>
